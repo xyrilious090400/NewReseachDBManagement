@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\VGD 14\Videos\employeedbmanagement\Xyrille.ResearchDatabaseManagement.Windows\Xyrille.ResearchDatabaseManagement.Windows\obj\Debug\
+C:\Users\VGD 14\Videos\RootNewResearchDbManagement\Xyrille.ResearchDatabaseManagement.Windows\obj\Debug\
 Xyrille.ResearchDatabaseManagement.Windows
 none
 false
 DEBUG;TRACE
-C:\Users\VGD 14\Videos\employeedbmanagement\Xyrille.ResearchDatabaseManagement.Windows\Xyrille.ResearchDatabaseManagement.Windows\App.xaml
+C:\Users\VGD 14\Videos\RootNewResearchDbManagement\Xyrille.ResearchDatabaseManagement.Windows\App.xaml
 6-1521590576
 
-30-891971964
-261851254800
+34-354177378
+261768334094
 LoginWindow.xaml;MainWindow.xaml;ResearchesWindows\Add.xaml;ResearchesWindows\List.xaml;ResearchesWindows\Update.xaml;Users\Add.xaml;
 
 False

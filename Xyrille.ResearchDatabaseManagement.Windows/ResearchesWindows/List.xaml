@@ -40,13 +40,7 @@
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
-                <DataGridTemplateColumn>
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <Button x:Name="btnDeductions" Click="btnDeductions_Click" Content="Show Deductions"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>
+             
             </DataGrid.Columns>
         </DataGrid>
         <ComboBox x:Name="cboSortOrder" HorizontalAlignment="Left" Margin="629,34,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboSortOrder_SelectionChanged"/>

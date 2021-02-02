@@ -153,7 +153,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.DAL
             #region User
             context.Users.Add(new Models.User()
             {
-               Username = "Apple",
+               FirstName = "Apple",
                Address = "Apple_Dinalupihan_Bataan",
                Password = "123456789",
                UserEmail = "Apple@gmail.com",
@@ -166,7 +166,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.DAL
 
             context.Users.Add(new Models.User()
             {
-                Username = "Buko",
+                FirstName = "Buko",
                 Address = "Buko",
                 Password = "123456789",
                 UserEmail = "buko@gmail.com",
@@ -176,7 +176,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.DAL
 
             context.Users.Add(new Models.User()
             {
-                Username = "Cat",
+                FirstName = "Cat",
                 Address = "Cat_Dinalupihan_Bataan",
                 Password = "123456789",
                 UserEmail = "cat@gmail.com",
@@ -187,7 +187,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.DAL
 
             context.Users.Add(new Models.User()
             {
-                Username = "Dog",
+                FirstName = "Dog",
                 Address = "Dog_Dinalupihan_Bataan",
                 Password = "123456789",
                 UserEmail = "dog@gmail.com",
@@ -197,7 +197,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.DAL
 
                 context.Users.Add(new Models.User()
             {
-                Username = "Egg",
+                    FirstName = "Egg",
                 Address = "Egg_Dinalupihan_Bataan",
                 Password = "123456789",
                 UserEmail = "egg    @gmail.com",

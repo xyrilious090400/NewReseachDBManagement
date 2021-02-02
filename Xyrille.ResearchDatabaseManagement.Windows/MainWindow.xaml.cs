@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Xyrille.ResearchDatabaseManagement.Windows.DAL;
 using Xyrille.ResearchDatabaseManagement.Windows.Helpers;
+using Xyrille.ResearchDatabaseManagement.Windows.Users;
 
 namespace Xyrille.ResearchDatabaseManagement.Windows
 {
@@ -54,7 +55,14 @@ namespace Xyrille.ResearchDatabaseManagement.Windows
 
         private void BtnResearch_Click(object sender, RoutedEventArgs e)
         {
-          
+            Add addWindow = new Add();
+            addWindow.Show();
+        }
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow login = new LoginWindow();
+            login.Show();
         }
     }
 }

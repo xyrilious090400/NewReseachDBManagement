@@ -8,11 +8,129 @@
         Title="Add" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblTitle" Content="Add New Users" HorizontalAlignment="Left" Margin="36,26,0,0" VerticalAlignment="Top" Width="270" Height="40" FontSize="22" FontWeight="Bold"/>
-        <Label Content="FirstName" HorizontalAlignment="Left" Margin="36,108,0,0" VerticalAlignment="Top" Width="113" FontSize="16"/>
-        <Label Content="LastName" HorizontalAlignment="Left" Margin="36,157,0,0" VerticalAlignment="Top" Width="113" FontSize="16"/>
-        <Label Content="EmailAddress" HorizontalAlignment="Left" Margin="36,212,0,0" VerticalAlignment="Top" Width="113" FontSize="16"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="36,272,0,0" VerticalAlignment="Top" Width="113" FontSize="16"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="36,332,0,0" VerticalAlignment="Top" Width="113" FontSize="16"/>
+        <Label Content="FirstName" HorizontalAlignment="Left" Margin="36,95,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="1.534" Y="-3.049"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="LastName" HorizontalAlignment="Left" Margin="36,140,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="0.872" Y="-3.054"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="EmailAddress" HorizontalAlignment="Left" Margin="36,190,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="29">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="0.129" Y="-3.059"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="36,246,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="28">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-0.682" Y="-3.064"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content="Confirm Password" HorizontalAlignment="Left" Margin="36,301,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="29">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-1.492" Y="-3.07"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <TextBox x:Name="txtFirstName" HorizontalAlignment="Left" Height="29" Margin="161,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="1.507" Y="0.929"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtLastName" HorizontalAlignment="Left" Height="29" Margin="161,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="0.845" Y="0.924"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtEmailAddress" HorizontalAlignment="Left" Height="29" Margin="161,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="0.102" Y="0.919"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="29" Margin="161,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-0.709" Y="0.914"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBox x:Name="txtConfirmPassword" HorizontalAlignment="Left" Height="28" Margin="161,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-1.519" Y="0.908"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="591,362,0,0" VerticalAlignment="Top" Width="75" Click="BtnAdd_Click"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="692,362,0,0" VerticalAlignment="Top" Width="75" Click="BtnCancel_Click"/>
+        <TextBlock x:Name="txtErrors" HorizontalAlignment="Left" Margin="223,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="379"/>
+        <TextBox x:Name="txtAddress" HorizontalAlignment="Left" Height="28" Margin="159,349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="396" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-1.519" Y="0.908"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="37,347,0,0" VerticalAlignment="Top" Width="104" FontSize="16" RenderTransformOrigin="0.5,0.5" Height="29">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.774"/>
+                    <TranslateTransform X="-1.492" Y="-3.07"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
 
     </Grid>
 </Window>

@@ -21,12 +21,13 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.ResearchesWindows
     /// </summary>
     public partial class List : Window
     {
-        private string sortBy = "lastname";
+        private string sortBy = "FirstName";
         private string sortOrder = "asc";
         private string keyword = "";
         private int pageSize = 5;
         private int pageIndex = 1;
         private long pageCount = 1;
+
 
         public List()
         {
@@ -113,9 +114,12 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.ResearchesWindows
 
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-            //ResearchDTO researchDTO = ((FrameworkElement)sender).DataContext as ResearchDTO;
-            //Update updateForm = new Update(researchDTO, this);
-            //updateForm.Show();
+            ResearchDTO researchDTO = ((FrameworkElement)sender).DataContext as ResearchDTO;
+            //Research research = new Research();
+            //Update updateForm = new Update(researchDTO,this);
+            this.Show(); 
+            ////Update update = new Update(List parentWindow, ResearchDTO research);
+            //update.Show();
         }
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
@@ -178,5 +182,7 @@ namespace Xyrille.ResearchDatabaseManagement.Windows.ResearchesWindows
             }
             showData();
         }
+
+    
     }
 }

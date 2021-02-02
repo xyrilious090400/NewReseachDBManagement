@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Xyrille.ResearchDatabaseManagement.Windows.BBL;
 using Xyrille.ResearchDatabaseManagement.Windows.Helpers;
+using Xyrille.ResearchDatabaseManagement.Windows.ResearchesWindows;
 
 namespace Xyrille.ResearchDatabaseManagement.Windows
 {
@@ -57,8 +58,8 @@ namespace Xyrille.ResearchDatabaseManagement.Windows
                 ProgramUser.EmailAddress = users.UserEmail;
                 ProgramUser.Roles = roles;
 
-                MainWindow main = new MainWindow();
-                main.Show();
+                ResearchesWindows.List researchList = new ResearchesWindows.List();
+                researchList.Show();
                 this.Close();
             }
             else
@@ -67,6 +68,11 @@ namespace Xyrille.ResearchDatabaseManagement.Windows
             }
 
 
+        }
+
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

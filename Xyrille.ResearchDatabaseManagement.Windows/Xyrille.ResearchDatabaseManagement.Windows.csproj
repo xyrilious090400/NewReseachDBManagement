@@ -82,6 +82,12 @@
     </ApplicationDefinition>
     <Compile Include="BBL\ResearchesBBL.cs" />
     <Compile Include="DTO\ResearchDTO.cs" />
+    <Compile Include="Enums\LoginStatus.cs" />
+    <Compile Include="Migrations\202102020846084_init.cs" />
+    <Compile Include="Migrations\202102020846084_init.designer.cs">
+      <DependentUpon>202102020846084_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ResearchesWindows\Add.xaml.cs">
       <DependentUpon>Add.xaml</DependentUpon>
     </Compile>
@@ -158,6 +164,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Migrations\202102020846084_init.resx">
+      <DependentUpon>202102020846084_init.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
